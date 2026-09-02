@@ -6,7 +6,7 @@ Form builder plugin for Strapi 5.
 
 - Form collection type with i18n support
 - Draft & publish
-- Double opt-in fields
+- Nested form-field components shipped with the plugin
 - Content API routes
 
 ## Requirements
@@ -51,16 +51,11 @@ npm run develop
 3. Run `npm publish`
 4. Submit to the [Strapi Marketplace](https://market.strapi.io/submit-plugin)
 
-## Plugin UID
+## Plugin UIDs
 
 - Content type: `plugin::form-builder.form`
+- Form field component: `form-builder.form-field`
+- Form field option component: `form-builder.form-field-option`
 - API path: `/api/form-builder/forms`
 
-## Notes
-
-This plugin references app-specific relations/components:
-
-- `layout-component.form-field`
-- `api::user-confirmation.user-confirmation`
-
-Ensure your Strapi project defines these, or adjust the schema before publishing publicly.
+The plugin is self-contained. A blank Strapi app does not need extra app components.

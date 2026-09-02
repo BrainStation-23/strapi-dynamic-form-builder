@@ -1,5 +1,5 @@
-'use strict';
+import form from './form';
 
-module.exports = {
-  form: require('./form'),
+export default {
+  form,
 };

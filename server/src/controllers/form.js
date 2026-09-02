@@ -1,9 +1,3 @@
-'use strict';
+import { factories } from '@strapi/strapi';
 
-/**
- * form controller
- */
-
-const { createCoreController } = require('@strapi/strapi').factories;
-
-module.exports = createCoreController('plugin::form-builder.form');
+export default factories.createCoreController('plugin::form-builder.form');

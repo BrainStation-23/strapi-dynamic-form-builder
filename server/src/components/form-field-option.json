@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_form_builder_form_field_options",
+  "info": {
+    "displayName": "Form Field Option",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "richtext",
+      "required": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Required": {
+      "type": "boolean"
+    }
+  }
+}

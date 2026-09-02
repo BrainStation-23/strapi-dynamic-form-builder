@@ -4,7 +4,7 @@
   "info": {
     "singularName": "form",
     "pluralName": "forms",
-    "displayName": "Form"
+    "displayName": "Dynamic Form"
   },
   "options": {
     "draftAndPublish": true
@@ -80,7 +80,7 @@
           "localized": true
         }
       },
-      "component": "layout-component.form-field",
+      "component": "form-builder.form-field",
       "repeatable": true
     },
     "EmailTemplate": {
@@ -99,69 +99,6 @@
           "localized": true
         }
       }
-    },
-    "enableDoubleOptIn": {
-      "type": "boolean",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "default": false
-    },
-    "dataStewardEmail": {
-      "type": "email",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "conditions": {
-        "visible": {
-          "==": [
-            {
-              "var": "enableDoubleOptIn"
-            },
-            true
-          ]
-        }
-      },
-      "required": true
-    },
-    "user_confirmation_page_url": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::user-confirmation.user-confirmation",
-      "conditions": {
-        "visible": {
-          "==": [
-            {
-              "var": "enableDoubleOptIn"
-            },
-            true
-          ]
-        }
-      },
-      "inversedBy": "forms"
-    },
-    "EmailTemplateAdmin": {
-      "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "conditions": {
-        "visible": {
-          "==": [
-            {
-              "var": "enableDoubleOptIn"
-            },
-            true
-          ]
-        }
-      },
-      "required": true
     }
   }
 }

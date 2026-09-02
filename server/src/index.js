@@ -1,8 +1,13 @@
-'use strict';
+import register from './register';
+import controllers from './controllers';
+import routes from './routes';
+import services from './services';
+import contentTypes from './content-types';
 
-module.exports = () => ({
-  controllers: require('./controllers'),
-  routes: require('./routes'),
-  services: require('./services'),
-  contentTypes: require('./content-types'),
+export default () => ({
+  register,
+  controllers,
+  routes,
+  services,
+  contentTypes,
 });

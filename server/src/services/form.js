@@ -1,9 +1,3 @@
-'use strict';
+import { factories } from '@strapi/strapi';
 
-/**
- * form service
- */
-
-const { createCoreService } = require('@strapi/strapi').factories;
-
-module.exports = createCoreService('plugin::form-builder.form');
+export default factories.createCoreService('plugin::form-builder.form');

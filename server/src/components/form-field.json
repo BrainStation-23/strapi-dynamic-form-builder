@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_form_builder_form_fields",
+  "info": {
+    "displayName": "Form Field",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Type": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "text",
+        "textarea",
+        "checkbox",
+        "radio",
+        "select",
+        "phone",
+        "date"
+      ]
+    },
+    "Placeholder": {
+      "type": "string"
+    },
+    "Options": {
+      "type": "component",
+      "component": "form-builder.form-field-option",
+      "repeatable": true
+    },
+    "Required": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "RequiredMessage": {
+      "type": "richtext"
+    },
+    "MinLength": {
+      "type": "integer"
+    },
+    "MinLengthErrorMessage": {
+      "type": "richtext"
+    },
+    "MaxLength": {
+      "type": "integer"
+    },
+    "MaxLengthErrorMessage": {
+      "type": "richtext"
+    },
+    "IsPatternValidationEnabled": {
+      "type": "boolean"
+    },
+    "ValidationRules": {
+      "type": "string"
+    },
+    "ValidationErrorMessage": {
+      "type": "richtext"
+    }
+  }
+}
