@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-dynamic-form-builder",
-  "version": "0.1.120-beta",
+  "version": "0.1.2-beta",
   "description": "Form builder plugin for managing forms in Strapi",
   "keywords": [
     "strapi",
