@@ -1,5 +1,5 @@
 <div align="center">
-    <img style="width: 450px; height: auto;" src="https://raw.githubusercontent.com/BrainStation-23/strapi-preview-multidomain-plugin/HEAD/public/dynamic-form-builder.jpeg" alt="Logo for Strapi Dynamic form builder plugin" />
+    <img style="width: 450px; height: auto;" src="https://raw.githubusercontent.com/BrainStation-23/strapi-dynamic-form-builder/HEAD/public/dynamic-form-builder.jpeg" alt="Logo for Strapi Dynamic form builder plugin" />
     <h1>Strapi Dynamic Form Builder</h1>
     <p>A Strapi 5 plugin for building and managing multilingual dynamic forms from the Content Manager. Forms, field components, and Content API routes ship with the package, so a blank Strapi app can install it and start without extra app-level components.</p>
     <p>
