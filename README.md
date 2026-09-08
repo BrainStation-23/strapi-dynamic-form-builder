@@ -1,13 +1,25 @@
+<div align="center">
+    <img style="width: 450px; height: auto;" src="https://raw.githubusercontent.com/BrainStation-23/strapi-preview-multidomain-plugin/HEAD/public/dynamic-form-builder.jpeg" alt="Logo for Strapi Dynamic form builder plugin" />
+    <h1>Strapi Dynamic Form Builder</h1>
+    <p>A Strapi 5 plugin for building and managing multilingual dynamic forms from the Content Manager. Forms, field components, and Content API routes ship with the package, so a blank Strapi app can install it and start without extra app-level components.</p>
+    <p>
+      <a href="https://www.npmjs.com/package/strapi-plugin-dynamic-form-builder">
+        <img src="https://img.shields.io/npm/v/strapi-plugin-dynamic-form-builder.svg" alt="Strapi plugin Dynamic Form Builder" />
+      </a>
+      <a href="https://strapi.io">
+        <img src="https://img.shields.io/badge/strapi-v5-blue" alt="Strapi supported version" />
+      </a>
+      <a href="https://github.com/BrainStation-23/strapi-dynamic-form-builder">
+        <img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="Github Strapi plugin Dynamic Form Builder" />
+      </a>
+    </p>
+  </div>
+  
 # Strapi plugin Dynamic Form Builder
 
 [![npm version](https://img.shields.io/npm/v/strapi-plugin-dynamic-form-builder/beta.svg)](https://www.npmjs.com/package/strapi-plugin-dynamic-form-builder)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Strapi](https://img.shields.io/badge/Strapi-v5-blueviolet)](https://strapi.io)
-
-A Strapi 5 plugin for building and managing multilingual dynamic forms from the Content Manager. Forms, field components, and Content API routes ship with the package, so a blank Strapi app can install it and start without extra app-level components.
-
-**npm:** [`strapi-plugin-dynamic-form-builder`](https://www.npmjs.com/package/strapi-plugin-dynamic-form-builder)  
-**Repository:** [BrainStation-23/strapi-dynamic-form-builder](https://github.com/BrainStation-23/strapi-dynamic-form-builder)
 
 ## Table of contents
 
