@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-dynamic-form-builder",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Build and manage multilingual dynamic forms in Strapi with nested fields and a Content API.",
   "keywords": [
     "strapi",
